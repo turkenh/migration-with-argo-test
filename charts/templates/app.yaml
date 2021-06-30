@@ -14,5 +14,5 @@ spec:
   source:
     path: ''
     repoURL: https://migrations-test-repo.storage.googleapis.com/
-    targetRevision: {{ .Values.migration-version | quote }}
+    targetRevision: {{ .Values.migration_version | quote }}
     chart: migrations
