@@ -13,6 +13,6 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: ''
-    repoURL: https://migrations-test-repo.storage.googleapis.com/
+    repoURL: https://migrations-test-repo2.storage.googleapis.com/
     targetRevision: {{ .Values.migration_version | quote }}
     chart: migrations
